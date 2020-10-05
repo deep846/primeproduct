@@ -3,9 +3,9 @@
 def primeproduct(m):
     factor=[]
     for i in range (1,m+1):
-        if(m==0):
+        if(m%i==0):
            factor.append(i)
     if(len(factor)<=4):
-        print('True')
+        return True
     else:
-        print('False')
+        return False
