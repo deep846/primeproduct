@@ -9,3 +9,8 @@ def primeproduct(m):
         return True
     else:
         return False
+    
+ number = int(input('Enter any number :'))
+a = primeproduct(number)
+print(a)
+
